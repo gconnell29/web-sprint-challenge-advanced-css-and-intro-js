@@ -303,7 +303,7 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 function lotsOfArt(array){
   let painted100 = [];
   for (let i = 0; i < array.length; i++) {
-    if (array[i].name > 100) {
+    if (array[i].paintings > 100) {
       painted100.push(array[i].name);
     }
   }
